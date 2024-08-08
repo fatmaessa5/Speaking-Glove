@@ -1,0 +1,10 @@
+
+#ifndef HAL_DFPLAYER_ERRORTYPES_H_
+#define HAL_DFPLAYER_ERRORTYPES_H_
+
+typedef enum{
+	DFPLAYER_Error_t_RT_OK				,
+	DFPLAYER_Error_t_RT_WRONG_CMD
+}DFPLAYER_Error_t;
+
+#endif /* HAL_DFPLAYER_ERRORTYPES_H_ */

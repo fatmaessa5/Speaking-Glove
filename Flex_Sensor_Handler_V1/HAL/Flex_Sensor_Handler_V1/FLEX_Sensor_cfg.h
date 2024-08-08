@@ -1,0 +1,36 @@
+
+
+#ifndef HAL_FLEX_SENSOR_HANDLER_V1_FLEX_SENSOR_CFG_H_
+#define HAL_FLEX_SENSOR_HANDLER_V1_FLEX_SENSOR_CFG_H_
+
+/*
+ * Use ENABLE and DISABLE as options for the FLEX_SENSOR_0_STATUS
+ */
+
+#define FLEX_SENSOR_0_STATUS	DISABLE
+#define FLEX_SENSOR_1_STATUS	DISABLE
+#define FLEX_SENSOR_2_STATUS	DISABLE
+#define FLEX_SENSOR_3_STATUS	ENABLE
+#define FLEX_SENSOR_4_STATUS	ENABLE
+#define FLEX_SENSOR_5_STATUS	ENABLE
+#define FLEX_SENSOR_6_STATUS	ENABLE
+#define FLEX_SENSOR_7_STATUS	ENABLE
+
+/*
+ * Use PULL_UP and PULL_DOWN as options for CONNECTION_TYPE
+ */
+
+#define CONNECTION_TYPE					PULL_DOWN
+
+/*
+ * set the fixed resistor value in ohm
+ */
+#define FIXED_RESISTOR_VALUE_OHM			(u32)300
+
+/*
+ *	Set the VCC voltage value
+ */
+#define VCC_VALUE_VOLT						(u8)5
+
+
+#endif /* HAL_FLEX_SENSOR_HANDLER_V1_FLEX_SENSOR_CFG_H_ */
